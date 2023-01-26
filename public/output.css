@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
 
 /*
-! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -32,6 +32,7 @@
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
 */
 
 html {
@@ -44,6 +45,9 @@ html {
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
+  -webkit-font-feature-settings: normal;
+          font-feature-settings: normal;
+  /* 5 */
 }
 
 /*
@@ -410,6 +414,12 @@ video {
   height: auto;
 }
 
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden] {
+  display: none;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -561,12 +571,6 @@ video {
   }
 }
 
-@media (min-width: 620px){
-  .container{
-    max-width: 620px;
-  }
-}
-
 @media (min-width: 768px){
   .container{
     max-width: 768px;
@@ -576,18 +580,6 @@ video {
 @media (min-width: 1060px){
   .container{
     max-width: 1060px;
-  }
-}
-
-@media (min-width: 1200px){
-  .container{
-    max-width: 1200px;
-  }
-}
-
-@media (min-width: 1700px){
-  .container{
-    max-width: 1700px;
   }
 }
 
@@ -881,8 +873,7 @@ video {
 }
 
 .bg-blue{
-  --tw-bg-opacity: 1;
-  background-color: rgb(44 188 233 / var(--tw-bg-opacity));
+  background-color: #2CBCEE9;
 }
 
 .bg-yellow{
@@ -1010,7 +1001,7 @@ video {
 }
 
 .font-playfair{
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Serif;
 }
 
 .font-opensans{
@@ -1076,11 +1067,11 @@ video {
 }
 
 .placeholder-opaque-black::-webkit-input-placeholder{
-  color: rgba(0,0,0,0.35);
+  color: rbg(0,0,0,0,35);
 }
 
 .placeholder-opaque-black::placeholder{
-  color: rgba(0,0,0,0.35);
+  color: rbg(0,0,0,0,35);
 }
 
 .opacity-0{
@@ -1223,23 +1214,7 @@ body,
 
 .before\:border-blue::before{
   content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-color: rgb(44 188 233 / var(--tw-border-opacity));
-}
-
-.before\:content-person1::before{
-  --tw-content: url('./assets/person-1.png');
-  content: var(--tw-content);
-}
-
-.before\:content-person2::before{
-  --tw-content: url('./assets/person-2.png');
-  content: var(--tw-content);
-}
-
-.before\:content-person3::before{
-  --tw-content: url('./assets/person-3.png');
-  content: var(--tw-content);
+  border-color: #2CBCEE9;
 }
 
 .hover\:bg-red:hover{
@@ -1248,8 +1223,7 @@ body,
 }
 
 .hover\:bg-blue:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(44 188 233 / var(--tw-bg-opacity));
+  background-color: #2CBCEE9;
 }
 
 .hover\:text-white:hover{
@@ -1277,12 +1251,6 @@ body,
 
 .hover\:saturate-200:hover{
   --tw-saturate: saturate(2);
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:sepia:hover{
-  --tw-sepia: sepia(100%);
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
