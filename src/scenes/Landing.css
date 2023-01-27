@@ -1,0 +1,22 @@
+/* 
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0 ;
+    font-family: "Poppins Light";}
+  
+    .profile-details-name{
+      font-size: 24px;
+      font-family: "Poppins SemiBold";}
+  
+      .profile-details-name{
+        font-size: 20px;
+        }
+        .profile-details-role .primary-text{
+          font-size: 12px;
+      }            
+      .primary-text{
+        color: (--white);
+    }
+    .highlighted-text{
+      color: var(--dark-orange);
+  } */

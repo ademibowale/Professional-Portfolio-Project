@@ -2,6 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+// import './index.css';
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -14,20 +15,20 @@ const Landing = ({ setSelectedPage }) => {
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[200px]
+            before:w-full before:max-w-[200px] md:before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 rounded-full max-w-[100px] md:max-w-[200px]"
+              src="assets/profile-image.jpg"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            className="rounded-full max-w-[100px] md:max-w-[200px]"
+            src="assets/profile-image.jpg"
           />
         )}
       </div>
@@ -45,20 +46,44 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+
+<div className='font-playfair font-semibold text-4xl'>
+                <span className='primary-text'>
+                    {" "}
+                    Hello, I'M <span className='text-yellow'>Ademibowale</span> 
+                </span>
+              </div>
+              <div className='font-playfair font-semibold text-4xl mb-5'>
+                <span className='font-playfair font-semibold text-4xl mb-5'>
+                    {" "}
+                    <h1>
+                    <Typed
+      strings={[
+            "Ethusiastic Dev",
+            "Full Stack Developer",
+            "MERN Stack Dev",
+            "React/React Native Dev",
+          ]}
+          typeSpeed={150}
+          backSpeed={100}
+          loop ={Infinity}
+        />
+        </h1>
+        <span className='mt-10 mb-7 text-sm text-center md:text-start'>
+        knock of building applications with front and backend operations.
+        </span>
+        </span>
+        </div>
+          {/* <p className="text-6xl font-playfair z-10 text-center md:text-start">
+            Adebowale {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              before:absolute before:-left-[15px] before:-top-[50px] before:z-[-1]"
             >
-              Esper
+              Adegboye
             </span>
-          </p>
-
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
-          </p>
+          </p> */}
+         
         </motion.div>
 
         {/* CALL TO ACTIONS */}
