@@ -62,7 +62,7 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="text-red font-playfair font-semibold text-3xl mt-3">
                 Experience
               </p>
             </div>

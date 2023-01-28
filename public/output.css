@@ -762,6 +762,30 @@ video {
   max-height: 400px;
 }
 
+.max-h-\[500px\]{
+  max-height: 500px;
+}
+
+.max-h-\[00px\]{
+  max-height: 00px;
+}
+
+.max-h-\[z00px\]{
+  max-height: z00px;
+}
+
+.max-h-\[0px\]{
+  max-height: 0px;
+}
+
+.max-h-\[40px\]{
+  max-height: 40px;
+}
+
+.max-h-\[4000px\]{
+  max-height: 4000px;
+}
+
 .w-5\/6{
   width: 83.333333%;
 }
@@ -812,6 +836,18 @@ video {
 
 .max-w-\[400px\]{
   max-width: 400px;
+}
+
+.max-w-\[0px\]{
+  max-width: 0px;
+}
+
+.max-w-\[px\]{
+  max-width: px;
+}
+
+.max-w-\[4000px\]{
+  max-width: 4000px;
 }
 
 .basis-1\/2{
@@ -948,9 +984,17 @@ video {
   padding: 2.5rem;
 }
 
-.py-48{
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+.p-0{
+  padding: 0px;
+}
+
+.p-1{
+  padding: 0.25rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-10{
@@ -986,6 +1030,11 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-48{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .pt-10{
@@ -1051,11 +1100,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1069,6 +1113,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-semibold{
@@ -1280,6 +1329,10 @@ body,
 
 .hover\:opacity-90:hover{
   opacity: 0.9;
+}
+
+.hover\:opacity-0:hover{
+  opacity: 0;
 }
 
 .hover\:saturate-200:hover{
