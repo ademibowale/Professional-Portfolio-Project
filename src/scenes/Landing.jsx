@@ -2,9 +2,8 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-// import './index.css';
 import Typed from 'react-typed';
-// import './Landing.css'
+
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -23,14 +22,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 rounded-full max-w-[100px] md:max-w-[200px]"
-              src="assets/profile-image.jpg"
+              src="assets/profile-images.jpg"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="rounded-full max-w-[100px] md:max-w-[200px]"
-            src="assets/profile-image.jpg"
+            src="assets/profile-images.jpg"
           />
         )}
       </div>
@@ -49,11 +48,13 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
 <div className='font-playfair font-semibold text-4xl'>
-                <p className=''>
+                <p>
                     {" "}
                     Hello, I'M 
                     <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[100px] before:z-[-5]"><span className='text-yellow'>Ademibowale</span> </span>
+              before:absolute before:-left-[25px] before:-top-[100px] before:z-[-5]">
+                <span className='text-yellow'>Ademibowale</span> 
+                </span>
                 </p>
               </div>
               <div className='font-playfair font-semibold text-4xl mb-5'>
@@ -62,10 +63,10 @@ const Landing = ({ setSelectedPage }) => {
                     <h1 className="">
                     <Typed
       strings={[
-            "Ethusiastic Dev",
-            "Full Stack Developer",
-            "MERN Stack Dev",
-            "React/React Native Dev",
+            "Ethusiastic Dev 🖥️",
+            "Full Stack Developer 🗺️",
+            "MERN Stack Dev 😎",
+            "React/React Native Dev 😎",
           ]}
           typeSpeed={150}
           backSpeed={100}
@@ -77,17 +78,7 @@ const Landing = ({ setSelectedPage }) => {
         </span>
         </span>
         </div>
-          
-          {/* <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Adebowale {""}
-            <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[15px] before:-top-[50px] before:z-[-1]"
-            >
-              Adegboye
-            </span>
-          </p> */}
-                   
+                                     
         </motion.div>
 
         {/* CALL TO ACTIONS */}

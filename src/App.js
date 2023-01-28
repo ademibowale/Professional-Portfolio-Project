@@ -8,8 +8,9 @@ import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
-import Testimonials from "./scenes/Testimonials";
+// import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
+
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -28,6 +29,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+ 
   return (
     <div className="app bg-deep-blue">
       <Navbar
@@ -71,7 +73,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      {/* <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -79,7 +81,7 @@ function App() {
         >
           <Testimonials />
         </motion.div>
-      </div>
+      </div> */}
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
@@ -92,7 +94,9 @@ function App() {
       </div>
       <Footer />
     </div>
+    
   );
+  
 }
 
 export default App;

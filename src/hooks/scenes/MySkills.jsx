@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pt-01 pb-24">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -63,7 +63,7 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
+              {/* <p className="font-playfair font-semibold text-5xl">01</p> */}
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Experience
               </p>
@@ -71,9 +71,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          Full-Stack Software Developer | Ruby on Rails | JavaScript | React and Redux | MySQL| Postgresql | Figma | Node-Js
           </p>
         </motion.div>
 
@@ -134,7 +132,7 @@ const MySkills = () => {
           </p>
         </motion.div>
       </div>
-    </section>
+      </section>
   );
 };
 

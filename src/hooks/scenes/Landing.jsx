@@ -21,14 +21,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 rounded-full max-w-[100px] md:max-w-[200px]"
-              src="assets/profile-image.jpg"
+              src="assets/profile-images.jpg"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="rounded-full max-w-[100px] md:max-w-[200px]"
-            src="assets/profile-image.jpg"
+            src="assets/profile-images.jpg"
           />
         )}
       </div>
@@ -74,16 +74,7 @@ const Landing = ({ setSelectedPage }) => {
         </span>
         </span>
         </div>
-          {/* <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Adebowale {""}
-            <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[15px] before:-top-[50px] before:z-[-1]"
-            >
-              Adegboye
-            </span>
-          </p> */}
-         
+                  
         </motion.div>
 
         {/* CALL TO ACTIONS */}
