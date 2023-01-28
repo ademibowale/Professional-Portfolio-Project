@@ -77,79 +77,121 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+          max-w-[350px] max-h-[250px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
           
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://magic-calculator-machine.netlify.app/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://magic-calculator-machine.netlify.app/"
           target="_blank"
           rel="noreferrer">
-           
+                     
           <Project title="Project 1"  />
           </a>
+          <p className="m-1">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 2"  />
           </a>
+          <p className="m-2 ">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://leader-board-hycrown-app.netlify.app/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://leader-board-hycrown-app.netlify.app/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 3"  />
           </a>
+          <p className="mt-5 mb-5">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://ademibowale.github.io/Capstone_projects/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://ademibowale.github.io/Capstone_projects/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 4"  />
           </a>
+          <p className="mt-5 mb-5">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://corona-virus-pandemic.netlify.app/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://corona-virus-pandemic.netlify.app/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 5"  />
           </a>
+          <p className="mt-5 mb-5">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://bookstore-cms-books.netlify.app/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://bookstore-cms-books.netlify.app/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 6"  />
           </a>
+          <p className="mt-5 mb-5">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
 
           <div>
-          <a className="flex justify-center text-center items-center p-10 bg-red
-          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://nickemma.github.io/capstone-project-kanban/"
+          <a className="flex justify-center text-center items-center p-5 bg-yellow
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://nickemma.github.io/capstone-project-kanban/"
           target="_blank"
           rel="noreferrer">
           <Project title="Project 7"  />
           </a>
+          <p className="mt-5 mb-5">
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
+        </p>
           </div>
           
           <div
-            className="flex justify-center text-center items-center p-10 bg-blue
+            className="flex justify-center text-center items-center p-5 bg-blue
               max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold"
-n          >
+          >
             SMOOTH USER EXPERIENCE
           </div>
         </motion.div>
