@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
@@ -28,6 +29,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+ 
   return (
     <div className="app bg-deep-blue">
       <Navbar
@@ -92,7 +94,9 @@ function App() {
       </div>
       <Footer />
     </div>
+    
   );
+  
 }
 
 export default App;

@@ -27,7 +27,7 @@ content:{
   brush:"url('./assets/brush.png')",
   persion1:"url('./assets/person_1.jpg')",
   persion2:"url('./assets/person_2.jpg')",
-  persion3:"url('./assets/person_3jpg')",
+  persion3:"url('./assets/person_3.jpg')",
 }
     },
 

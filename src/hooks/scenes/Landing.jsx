@@ -74,16 +74,7 @@ const Landing = ({ setSelectedPage }) => {
         </span>
         </span>
         </div>
-          {/* <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Adebowale {""}
-            <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[15px] before:-top-[50px] before:z-[-1]"
-            >
-              Adegboye
-            </span>
-          </p> */}
-         
+                  
         </motion.div>
 
         {/* CALL TO ACTIONS */}

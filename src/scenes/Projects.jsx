@@ -23,7 +23,7 @@ const Project = ({ title }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-1xl font-playfair">{title}</p>
         <p className="mt-7">
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
           porttitor accumsan tincidunt.
@@ -58,9 +58,10 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        I can help you build a product,feature or
+        website Look through some of my work and experience!
+        If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
         </p>
       </motion.div>
 
@@ -76,25 +77,79 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+          max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://magic-calculator-machine.netlify.app/"
+          target="_blank"
+          rel="noreferrer">
+           
+          <Project title="Project 1"  />
+          </a>
+          </div>
 
-          {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 2"  />
+          </a>
+          </div>
 
-          {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://leader-board-hycrown-app.netlify.app/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 3"  />
+          </a>
+          </div>
+
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://ademibowale.github.io/Capstone_projects/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 4"  />
+          </a>
+          </div>
+
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://corona-virus-pandemic.netlify.app/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 5"  />
+          </a>
+          </div>
+
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://bookstore-cms-books.netlify.app/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 6"  />
+          </a>
+          </div>
+
+          <div>
+          <a className="flex justify-center text-center items-center p-10 bg-red
+          max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://nickemma.github.io/capstone-project-kanban/"
+          target="_blank"
+          rel="noreferrer">
+          <Project title="Project 7"  />
+          </a>
+          </div>
+          
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
+              max-w-[400px] max-h-[400px] text-1xl font-playfair font-semibold"
+n          >
             SMOOTH USER EXPERIENCE
           </div>
         </motion.div>

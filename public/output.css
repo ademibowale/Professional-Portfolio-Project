@@ -790,6 +790,10 @@ video {
   width: 40%;
 }
 
+.max-w-\[200px\]{
+  max-width: 200px;
+}
+
 .max-w-\[100px\]{
   max-width: 100px;
 }
@@ -1027,11 +1031,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -1040,6 +1039,11 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-xl{
@@ -1137,16 +1141,6 @@ body,
 .before\:-top-\[100px\]::before{
   content: var(--tw-content);
   top: -100px;
-}
-
-.before\:-left-\[15px\]::before{
-  content: var(--tw-content);
-  left: -15px;
-}
-
-.before\:-top-\[50px\]::before{
-  content: var(--tw-content);
-  top: -50px;
 }
 
 .before\:-top-10::before{
@@ -1344,6 +1338,10 @@ body,
 
   .md\:w-2\/5{
     width: 40%;
+  }
+
+  .md\:max-w-\[400px\]{
+    max-width: 400px;
   }
 
   .md\:max-w-\[200px\]{
