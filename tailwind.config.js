@@ -25,9 +25,9 @@ fontFamily:{
 },
 content:{
   brush:"url('./assets/brush.png')",
-  persion1:"url('./assets/person-1.jpg')",
-  persion2:"url('./assets/person-2.jpg')",
-  persion3:"url('./assets/person-3.jpg')",
+  persion1:"url('./assets/person-1.png')",
+  persion2:"url('./assets/person-2.png')",
+  persion3:"url('./assets/person-3.png')",
 }
     },
 
