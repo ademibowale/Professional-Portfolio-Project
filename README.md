@@ -123,6 +123,30 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
 
+
+ ### Contact Me [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/) or [Email](ademibowaleadegboye@gmail.com)
+  ### Check out my other Apps
+   
+   <!-- === ⭐ PORTFOLIO LINE START ⭐ === -->
+
+| Author                  | Screenshot                                                                                                                                                                | Live URL                                                                            | Repo                                                                     | Tech Stack                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| ADEBOWALE ADEGBOYE            | ![Screenshot](https://user-images.githubusercontent.com/92458236/215344329-a70f50fb-563b-4615-a17e-3b9ca9361181.png)                                                   | [ademibowale.com](https://ademibowale-professional-portfolio.netlify.app/)                                              | [GitHub](https://github.com/ademibowale/Professional-Portfolio-Project)                                | React js, Tailwinds,JavaScript,                                                                             |
+| ADEBOWALE ADEGBOYE           | ![covid_19_app](https://user-images.githubusercontent.com/92458236/215344980-ad25685d-b3dd-4ff4-b6fe-a4b52707c5ee.png)                                                   | [Corona-virus](https://corona-virus-pandemic.netlify.app/)                                            | [GitHub](https://github.com/ademibowale/Covid-19-tracker)                   | React, CSS,Redux                                               |
+| ADEBOWALE ADEGBOYE         | ![Screenshot (36)](https://user-images.githubusercontent.com/92458236/215345621-43efe6c3-7171-4a71-b36b-0eda91c7e2bd.png)                                                 | [Bookstore](https://bookstore-cms-books.netlify.app/)                                    | [GitHub](https://github.com/ademibowale/CM_Bookstore)                                 | React, Gatsby, Styled-components                                                                  |
+| ADEBOWALE ADEGBOYE           | ![Screenshot (37)](https://user-images.githubusercontent.com/92458236/215345703-f9b86199-98f5-4fd4-a350-1ed84dd605db.png)                                                   | [Tesla Clone](https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/)                                       | [GitHub](https://github.com/ademibowale/Tesla-clone)               | React, Tailwindcss,                                      |
+| ADEBOWALE ADEGBOYE & Nickemma            | ![free_game](https://user-images.githubusercontent.com/92458236/215346168-fa523c93-ac92-45a5-b0c2-f2631a122414.png)                                                   | [Group project](https://nickemma.github.io/capstone-project-kanban/)                                          | [GitHub](https://github.com/ademibowale/capstone-project-kanban)                 | React,, CSS, Netlify, NodeJS ,API          |
+| ADEBOWALE ADEGBOYE            | ![entainment_page](https://user-images.githubusercontent.com/92458236/215346627-8c953149-df00-4671-9f30-f4b0aaa3b86c.png)                                                   | [Entertainment Page](https://ademibowale.github.io/Capstone_projects/)                                          | [GitHub](https://github.com/ademibowale/Capstone_projects)                 | React,, CSS, Netlify, NodeJS ,API          |
+
+
+If you like this project and want to give back, consider buying me a coffee. I'll appreciate every cup. ☕
+
+<a href="https://buymeacoffee.com/evavic44">
+  <img width="170px" alt="bmc-button" src="https://user-images.githubusercontent.com/62628408/163418953-1d32bf9c-317b-44ca-b773-44e36140fc9d.png">
+</a>
+
+
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **I will add a feature for a new project.**
