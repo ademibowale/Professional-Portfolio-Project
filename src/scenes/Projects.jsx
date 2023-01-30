@@ -115,7 +115,7 @@ const Projects = () => {
           <Project title="Project 3"  />
           </a>
           <p className="mt-5 mb-5">
-          About The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Built with Javascript, HTML, CSS
+          About The leaderboard website displays scores submitted by different players.It also allows you to submit your score.All data is preserved to the external Leaderboard API service.Built with Javascript,HTML,CSS
         </p>
           </div>
 
@@ -127,9 +127,8 @@ const Projects = () => {
           <Project title="Project 4"  />
           </a>
           <p className="mt-5 mb-5">
-          This project is the Final capstone project of my first module at microverse. It is aim at building responsive UI of an online website for  Music Entertainment Industry , so in this project I built the home and the about page of the conference page (and readable) on all screens.
-          The template I used to create this template was originally designed by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
-        </p>
+          This is the First capstone project of my first module at microverse.Its aim at building responsive UI of an online website for Music Entertainment Industry,
+          so in this project I built the home and the about page of the conference page and readable on all screens.</p>
           </div>
 
           <div>
