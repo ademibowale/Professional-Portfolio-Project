@@ -91,10 +91,7 @@ const Projects = () => {
           <Project title="Project 1"  />
           </a>
           <p className="m-1">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          Awesome Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, App also display random math-related quote..
         </p>
           </div>
 
@@ -106,10 +103,7 @@ const Projects = () => {
           <Project title="Project 2"  />
           </a>
           <p className="m-2 ">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          This project is a web application for the Tesla Front-End app using React Redux. Fully scrollable Front-End Tesla shop app.
         </p>
           </div>
 
@@ -121,10 +115,7 @@ const Projects = () => {
           <Project title="Project 3"  />
           </a>
           <p className="mt-5 mb-5">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          About The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Built with Javascript, HTML, CSS
         </p>
           </div>
 
@@ -136,10 +127,8 @@ const Projects = () => {
           <Project title="Project 4"  />
           </a>
           <p className="mt-5 mb-5">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          This project is the Final capstone project of my first module at microverse. It is aim at building responsive UI of an online website for  Music Entertainment Industry , so in this project I built the home and the about page of the conference page (and readable) on all screens.
+          The template I used to create this template was originally designed by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
         </p>
           </div>
 
@@ -151,10 +140,7 @@ const Projects = () => {
           <Project title="Project 5"  />
           </a>
           <p className="mt-5 mb-5">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          This project is a web application for the corona virus pandemic showing the world statistics, fetching the data from an API.
         </p>
           </div>
 
@@ -166,10 +152,7 @@ const Projects = () => {
           <Project title="Project 6"  />
           </a>
           <p className="mt-5 mb-5">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          The Bookstore App is a website created to display a list of books, users can add a book and also remove selected book(s). built with React.
         </p>
           </div>
 
@@ -181,10 +164,7 @@ const Projects = () => {
           <Project title="Project 7"  />
           </a>
           <p className="mt-5 mb-5">
-        I can help you build a product,feature or
-        website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don't hesitate to contact me.
+          This project is based on the Free-To-Game API. The data is fetched from the API and gets displayed on the cards.The user can comment on the cards and give likes also.
         </p>
           </div>
           

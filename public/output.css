@@ -762,30 +762,6 @@ video {
   max-height: 400px;
 }
 
-.max-h-\[500px\]{
-  max-height: 500px;
-}
-
-.max-h-\[00px\]{
-  max-height: 00px;
-}
-
-.max-h-\[z00px\]{
-  max-height: z00px;
-}
-
-.max-h-\[0px\]{
-  max-height: 0px;
-}
-
-.max-h-\[40px\]{
-  max-height: 40px;
-}
-
-.max-h-\[4000px\]{
-  max-height: 4000px;
-}
-
 .w-5\/6{
   width: 83.333333%;
 }
@@ -836,18 +812,6 @@ video {
 
 .max-w-\[400px\]{
   max-width: 400px;
-}
-
-.max-w-\[0px\]{
-  max-width: 0px;
-}
-
-.max-w-\[px\]{
-  max-width: px;
-}
-
-.max-w-\[4000px\]{
-  max-width: 4000px;
 }
 
 .basis-1\/2{
@@ -982,14 +946,6 @@ video {
 
 .p-10{
   padding: 2.5rem;
-}
-
-.p-0{
-  padding: 0px;
-}
-
-.p-1{
-  padding: 0.25rem;
 }
 
 .py-8{
@@ -1329,10 +1285,6 @@ body,
 
 .hover\:opacity-90:hover{
   opacity: 0.9;
-}
-
-.hover\:opacity-0:hover{
-  opacity: 0;
 }
 
 .hover\:saturate-200:hover{
