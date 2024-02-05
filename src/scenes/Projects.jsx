@@ -84,14 +84,14 @@ const Projects = () => {
           
           <div>
           <a className="flex justify-center text-center items-center p-5 bg-yellow
-          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://magic-calculator-machine.netlify.app/"
+          max-w-[350px] max-h-[400px] text-1xl font-playfair font-semibold" href="https://topmostprintng-landingpage.netlify.app/"
           target="_blank"
           rel="noreferrer">
                      
           <Project title="Project 1"  />
           </a>
           <p className="m-1">
-          Awesome Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, App also display random math-related quote..
+          Landing Page for Topmost printing company,Topmost printing press is one of my client i work for i built this landing page for the company,. It is a Single Page App (SPA) that speak alot about the company ,testionies and showcase the tremendiouse features of the company ..
         </p>
           </div>
 
